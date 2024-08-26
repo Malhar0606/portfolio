@@ -1,0 +1,300 @@
+.navigation{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.desktop-list{
+    display: none;
+}
+.navigation a{
+    font-size: 15px;
+}
+.portfolio{
+    letter-spacing: 10px;
+}
+.desktop-list li{
+    font-size: 22px;
+}
+
+/* header */
+.hero{
+    background: rgba(0,0,0,0.5) url('../images/background/hero_2.jpg.webp');
+    width: 100%;
+    height: auto;
+    background-position: 50% 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.hero h1{
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 15px;
+    line-height: 50px;
+}
+.header{
+    height: 100vh;
+}
+
+/* section 1 */
+.section-one{
+    margin-top: 100px;
+}
+.sec-title h2{
+    font-size: 32px;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+}
+.section-one p{
+    font-size: 18px;
+    color: rgb(113, 113, 113);
+}
+.section-one h5{
+    color: rgb(113, 113, 113);
+}
+
+/* section 2 */
+.section-two{
+    background: #90a8af;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.section-two h2{
+    margin-top: 80px;
+    font-size: 40px;
+    letter-spacing: 18px;
+}
+.section-two a{
+    margin-bottom: 100px;
+}
+
+/* section 3 */
+.sec-three{
+    margin-top: 100px;
+}
+.sec-three h5{
+    color: rgb(130, 129, 129);
+    font-size: 18px;
+}
+.sec-three h2{
+    font-size: 40px;
+}
+.sec-three i{
+    color: rgb(130, 129, 129);  
+    font-size: 28px;
+}
+.sec-three p{
+    color: rgb(130, 129, 129);
+}
+
+/* percentage */
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+  }
+  
+  .skill {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .skill-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background: rgba(111, 110, 110, 0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+  }
+  
+  .skill-fill {
+    background: blue;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  
+  .skill-percent {
+    font-size: 30px;
+  }
+  
+  .js {
+    animation: js 4s;
+    width: 50%;
+  }
+  
+  .html {
+    animation: html 4s;
+    width: 90%;
+  }
+  
+  .css {
+    animation: css 4s;
+    width: 80%;
+  }
+  .bootstrap {
+    animation: bootstrap 4s;
+    width: 85%;
+  }
+  
+  @keyframes js {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  
+  @keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  @keyframes bootstrap {
+    from {
+      width: 0;
+    }
+    to {
+      width: 85%;
+    }
+    
+  }
+  @keyframes css {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+}
+
+
+
+/* section 4 */
+.sec-four{
+    margin-top: 100px;
+}
+.sec-four h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.sec-four img{
+    border-radius: 50%;
+}
+.test{
+    background-color: rgb(244, 242, 242);
+    width: auto;
+    height: auto;
+}
+
+/* section 5 */
+.sec-five{
+    margin-top: 100px;
+    background-color: rgb(67, 148, 67);
+    height: auto;
+}
+.sec-five h2{
+    margin-top: 50px;
+    color: white;
+    font-size: 28px;
+}
+.sec-five p{
+    color: white;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(31, 31, 31);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer span{
+    color: rgb(147, 146, 146);
+}
+.ft-a{
+    color: rgb(147, 146, 146);
+}
+
+@media(min-width:576px){
+    .hero h1{
+        font-size: 38px;
+    }
+    .about{
+        width: 30%;
+    }
+    .navigation input{
+        display: none;
+    }
+
+    
+}
+.section-one p{
+    line-height: 30px;
+}
+@media(min-width:992px){
+
+    .header h1{
+        font-size: 70px;
+        padding-left: 200px;
+        padding-right: 200px;
+        line-height: 85px;
+    }
+
+    .design{
+        width: 70%;
+        margin-top: 20%;
+    }
+    .sec-one-image{
+        width: 80%;
+    }
+    .sec-three-wraper{
+        width: 50%;
+    }
+    .features{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .desktop-list{
+        list-style-type: none;
+        display: flex;
+        font-size: 15px;
+        gap: 40px;
+        color: white;
+    }
+    .desktop-list a{
+        text-decoration: none;
+        color: white;
+    }
+    .mob-bar{
+        display: none;
+    }
+    .navigation ul{
+        margin-right: 20% ;
+    }
+
+}
+
+
+@media(min-width:1200px){
+    .navigation{
+        background-color:transparent;
+        width: 100%;
+        height: auto;
+    }
+}
